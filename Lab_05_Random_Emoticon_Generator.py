@@ -54,3 +54,4 @@ while i < 5:
 
 # generate vertical emoticons
     print(face, end=' ')
+
