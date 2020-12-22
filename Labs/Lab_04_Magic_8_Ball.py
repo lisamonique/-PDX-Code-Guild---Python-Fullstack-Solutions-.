@@ -23,7 +23,7 @@ while True:
 
     while question not in valid_choices:
         print(f'You chose an invalid selection: {question}')
-        question = input('Would you like to ask another question?!? yes or no')
+        question = input('Ask another question, or type Done to exit')
 
     if question in valid_no:
         print('Goodbye!')
