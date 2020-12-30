@@ -55,8 +55,6 @@ while True:
 
     convert = input(f"what are the output units?:")
 
-    #
-
     distance = units[unit_name]
 
     quantity = float(quantity)
