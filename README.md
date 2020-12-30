@@ -5,4 +5,5 @@
 [Lab_05](Labs/Lab_05_Random_Emoticon_Generator.py)
 [Lab_06](Labs/Lab_06_Password_Generator.py)
 [Lab_07](Labs/Lab_07_Rock_Paper_Scissors.py)
-
+[Lab_08](Labs/Lab_08_Guess_the_Number.py)
+[Lab_13](Labs/Lab_13_Unit_Converter.py)
