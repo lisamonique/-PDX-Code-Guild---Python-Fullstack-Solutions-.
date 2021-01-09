@@ -1,6 +1,4 @@
-print('Lab 11: Make Change')
-
-### Version 1 ###
+### Version 2 ###
 
 print('Welcome to the Change Maker 5000 (tm)')
 
@@ -8,14 +6,23 @@ while True:
 
     dollar = float(input('Enter a dollar amount: $'))
 
-    quarters = dollar//.25
-    dollar %= .25
-    dimes = dollar//.10
-    dollar %= .10
-    nickels = dollar//.05
-    dollar %= .05
-    pennies = dollar//.01
+coins = [
+    ('half-dollar', 50)
+    ('quarter', 25),
+    ('dime', 10),
+    ('nickel', 5),
+    ('penny', 1)
+]
+
+    coin_type = coin[0]
+    coin_value = coin[1]
+    change = coin_type, dollar // coin[1]
     
+
+
+
+
+
     print(f'Your change is {quarters} quarter(s), {dimes} dime(s), {nickels} nickle(s), {pennies} penny(ies).')
     
     # allow the user to choose whether they want to play again
@@ -35,5 +42,3 @@ while True:
 
     elif play_again in valid_yes:
         continue
-
-#----------------------------------------------------------------------------#
