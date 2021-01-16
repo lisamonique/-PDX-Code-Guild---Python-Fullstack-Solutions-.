@@ -13,5 +13,6 @@
 [Lab_14](Labs/Lab_14_Number_to_Phrase.py)
 [Lab_15](Labs/Lab_15_Count_Words.py)
 [Lab_16](Labs/Lab_16_Compute_ARI.py)
+[Lab_17](Labs/Lab_17_Quote_API.py)
 [Lab_18](Labs/Lab_18_ATM.py)
 
