@@ -7,7 +7,7 @@
 [Lab_07](Labs/Lab_07_Rock_Paper_Scissors.py)
 [Lab_08](Labs/Lab_08_Guess_the_Number.py)
 [Lab_11](Labs/Lab_11_Make_Change.py)
-[Lab_12](Lab_12_Blackjack_Advice.py)
+[Lab_12](Labs/Lab_12_Blackjack_Advice.py)
 [Lab_13](Labs/Lab_13_Unit_Converter.py)
 [Lab_14](Labs/Lab_14_Number_to_Phrase.py)
 [Lab_15](Labs/Lab_15_Count_Words.py)
