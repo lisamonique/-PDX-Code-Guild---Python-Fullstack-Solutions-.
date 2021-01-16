@@ -15,4 +15,5 @@
 [Lab_16](Labs/Lab_16_Compute_ARI.py)
 [Lab_17](Labs/Lab_17_Quote_API.py)
 [Lab_18](Labs/Lab_18_ATM.py)
+[Lab_19](Labs/Lab_19_Rain_Data.py)
 
