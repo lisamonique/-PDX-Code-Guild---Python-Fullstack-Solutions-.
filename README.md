@@ -1,4 +1,5 @@
 # -PDX-Code-Guild---Python-Fullstack-Solutions-.
+Python Labs
 [Lab_02](Labs/Lab_02_Mad_Libs.py)
 [Lab_03](Labs/Lab_03_Grading.py)
 [Lab_04](Labs/Lab_04_Magic_8_Ball.py)
@@ -16,6 +17,7 @@
 [Lab_17](Labs/Lab_17_Quote_API.py)
 [Lab_18](Labs/Lab_18_ATM.py)
 [Lab_19](Labs/Lab_19_Rain_Data.py)
+HTML/CSS Labs
 [Lab_01](Labs/Lab_01_Bio)
 [Lab_02](Labs/Lab_02_Blog)
 [Lab_03](Labs/Lab_03_Company_Home)
