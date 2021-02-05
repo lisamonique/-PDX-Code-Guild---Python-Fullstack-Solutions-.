@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-size: 100vw;
+    background-image:url("https://i.redd.it/bwhop3ynldu51.jpg");
+    font-family: 'Imbue', serif;
+    font-size: 18px;
+    text-align: justify;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+header{
+    color: orangered;
+    justify-self: flex-start;
+    font-weight: bold;
+    text-align: center;
+    font-size: 65px;
+    padding: 1em;
+}
+img{
+    display: block;
+    height: 40em;
+    width: 40em;
+    border: 07px solid white;
+    border-radius: 20em;
+}
+h3{
+    text-align: center;
+}
+footer{
+    padding: 10px;
+}
+ul{
+    font-size: 20px;
+    text-align: center;
+    width: 10vw;
+}
+pre{
+    font-size: 20px;
+    text-align: justify;
+
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+p{
+    max-width: 50%;
+    text-align: center;
+    padding: 1em;
+}
+q{
+    text-align: center;
+    padding: 1em;
+    font-family: cursive;
+}
+</style>
