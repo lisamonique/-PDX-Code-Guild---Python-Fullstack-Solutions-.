@@ -17,6 +17,7 @@ Python Labs
 [Lab_17](Labs/Lab_17_Quote_API.py)
 [Lab_18](Labs/Lab_18_ATM.py)
 [Lab_19](Labs/Lab_19_Rain_Data.py)
+
 HTML/CSS Labs
 [Lab_01](Labs/Lab_01_Bio)
 [Lab_02](Labs/Lab_02_Blog)
