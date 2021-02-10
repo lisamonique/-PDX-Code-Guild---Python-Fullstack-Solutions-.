@@ -26,7 +26,7 @@ HTML/CSS Labs
 [Lab_01](Labs/Lab_01_Bio)
 [Lab_02](Labs/Lab_02_Blog)
 [Lab_03](Labs/Lab_03_Company_Home)
-[Lab_04](Labs/Lab_04_Personal_Portfolio/JalisaPortfolio)
+[Lab_04](Labs/Lab_04_Personal_Portfolio/Jalisa_Portfolio)
 
 
 JavaScript Labs
