@@ -1,5 +1,5 @@
-# PDX-Code-Guild
-## Python-Fullstack-Solutions
+# PDX Code Guild
+## Jalisa's Fullstack Solutions
 
 ### Python Labs
 
