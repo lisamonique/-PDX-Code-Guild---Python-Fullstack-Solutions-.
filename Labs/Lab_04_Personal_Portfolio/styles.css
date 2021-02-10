@@ -1,0 +1,15 @@
+*{
+    
+}
+
+body{
+    background-color: B33B00;
+    color: B33B00;
+}
+
+header{
+    font-size: 100px;
+    text-align: center;
+    border: 5em;
+    border-color: B33B00;
+}
