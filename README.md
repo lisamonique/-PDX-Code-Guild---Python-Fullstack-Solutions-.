@@ -19,6 +19,7 @@ Python Labs
 [Lab_17](Labs/Lab_17_Quote_API.py)
 [Lab_18](Labs/Lab_18_ATM.py)
 [Lab_19](Labs/Lab_19_Rain_Data.py)
+[Mini Capstone](Labs/Mini_Capstone.py)
 
 
 HTML/CSS Labs
