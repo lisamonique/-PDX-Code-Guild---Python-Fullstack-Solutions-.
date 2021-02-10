@@ -10,6 +10,8 @@ response = requests.get("https://favqs.com/api/qotd")
 
 quote = json.loads(response.text)
 
+print(quote)
+'''
 print(quote["quote"]["author"])
 print(quote["quote"]["body"])
 
@@ -60,3 +62,4 @@ while True:
     
     else:   
         break
+'''

@@ -29,7 +29,6 @@ class ATM:
         if self.balance > 0:
             return True
         
-
     def withdraw(self, amount):  # withdraws the amount from the account and returns it
         self.balance -= amount
         self.print_transaction.append(f'user withdrew ${amount}')
@@ -42,11 +41,21 @@ class ATM:
        self.print_transaction
 
 
-print('Welcome to the ATM')
-
 atm = ATM(balance, interest_rate, print_transaction) # create an instance of our class
+
 while True:
-    command = input('Enter a command: ')
+    command = input(f'''
+----------------------------------------
+Enter a command:
+Would you like to Check your balance?
+Make a deposit?
+Check your interest?
+Check your Transaction History?
+Make a Withdraw?
+Ask for Help?
+Or Exit?
+----------------------------------------
+''')
     if command == 'balance':
         balance = atm.balance # call the balance() method
         print(f'Your balance is ${balance}')

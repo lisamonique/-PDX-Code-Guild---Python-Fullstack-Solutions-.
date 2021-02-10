@@ -25,3 +25,4 @@ for item in plant_data['data']:
     print(f'Year: {item["year"]}')
     print(f'Rank: {item["rank"]}')
     print("-----------------------------------")
+
