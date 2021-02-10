@@ -1,4 +1,4 @@
-# PDX Code Guild
+# PDX Code Guild - Class Mouse
 ## Jalisa's Fullstack Solutions
 
 ### Python Labs
