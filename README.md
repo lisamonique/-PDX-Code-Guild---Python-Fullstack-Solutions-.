@@ -1,7 +1,6 @@
 # -PDX-Code-Guild---Python-Fullstack-Solutions-.
 
 Python Labs
-
 [Lab_02](Labs/Lab_02_Mad_Libs.py)
 [Lab_03](Labs/Lab_03_Grading.py)
 [Lab_04](Labs/Lab_04_Magic_8_Ball.py)
@@ -21,13 +20,11 @@ Python Labs
 [Lab_19](Labs/Lab_19_Rain_Data.py)
 
 HTML/CSS Labs
-
 [Lab_01](Labs/Lab_01_Bio)
 [Lab_02](Labs/Lab_02_Blog)
 [Lab_03](Labs/Lab_03_Company_Home)
 
 JavaScript Labs
-
-[Lab_01](Labs/Lab_01_Random_Password_Generator)
-[Lab_02](Labs/Lab_02_Rock_Paper_Scissors)
-[Lab_03](Labs/Lab_03_Unit_Converter)
+  [Lab_01](Labs/Lab_01_Random_Password_Generator)
+  [Lab_02](Labs/Lab_02_Rock_Paper_Scissors)
+  [Lab_03](Labs/Lab_03_Unit_Converter)
