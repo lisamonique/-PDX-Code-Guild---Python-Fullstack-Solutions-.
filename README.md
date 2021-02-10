@@ -23,7 +23,7 @@
 - [Mini Capstone](Labs/Lab_Mini_Capstone.py)
 
 
-### HTML/CSS Labs
+### HTML + CSS Labs
 
 - [Lab 01: Bio](Labs/Lab_01_Bio)
 - [Lab 02: Blog](Labs/Lab_02_Blog)
