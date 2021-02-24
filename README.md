@@ -36,3 +36,7 @@
 - [Lab 01: Random Password Generator](Labs/Lab_01_Random_Password_Generator)
 - [Lab 02: Rock Paper Scissors](Labs/Lab_02_Rock_Paper_Scissors)
 - [Lab 03: Unit Converter](Labs/Lab_03_Unit_Converter)
+- [Lab 04: Personal Portfolio](Labs/Lab_04_Personal_Portfolio)
+- [Lab 05: Vue Redo](Labs/Lab_05_Vue_Redo)
+- [Lab 06: Cat API Vue](Labs/Lab_06_Cat_API_Vue)
+- [Lab 07: Weather API](Labs/Lab_07_Weather_API)
