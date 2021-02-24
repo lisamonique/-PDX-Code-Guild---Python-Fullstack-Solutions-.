@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <h1>WHAT'S THAT NUMBER</h1>
+        <h3>Please guess a number between 1 and 10</h3>
+        <p>You have 4 attempts</p>
+        <input v-model="secretNumber" type="text" onfocus="value=''">
+        <button v-on:click="guessNumber">Submit</button>
+        <div class="results">
+            {{ guess }}
+        </div>    
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

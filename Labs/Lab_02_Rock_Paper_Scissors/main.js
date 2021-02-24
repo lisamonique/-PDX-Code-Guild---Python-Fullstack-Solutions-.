@@ -1,12 +1,9 @@
 print('Lets Play ROCK🗿..PAPER📃..SCISSORS✂️')
 
-import random
+while true
 
-while True:
-
-# list of choices
-    options = ['rock', 'paper', 'scissors']
-
+// # list of choice
+let options = 'rock', 'paper', 'scissors'
 # user makes a move
     player1_selection = input ('Make your Move... Rock? Paper? OR Scissors?')
 

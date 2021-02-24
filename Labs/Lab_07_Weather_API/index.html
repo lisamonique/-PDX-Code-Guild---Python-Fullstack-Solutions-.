@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- Axios.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js" integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg==" crossorigin="anonymous"></script>
+    <script src="secrets.js"></script>
+    <script defer src="main.js" ></script>
+</head>
+<body>
+    <div id="app">
+        <h1>Weather API</h1>
+        <p>Click the button to get your coordinates</p>
+        <button @click="getLocation">Try It</button>
+        <p v-bind:class="display"> {{latitude}} <br> {{longitude}} </p>
+        <div class='day'>
+            <div class='date'>Date</div>
+            <div class='icon'>Icon</div>
+            <div class='maxt'>Highs</div>
+            <div class='mint'>Lows</div>
+            <div class='conditions'>Conditions</div>
+            <img src="http://openweathermap.org/img/wn/04d.png"/>
+            <i class="owf owf-800-d"></i>
+         </div>
+    </div>
+</body>
+</html>
