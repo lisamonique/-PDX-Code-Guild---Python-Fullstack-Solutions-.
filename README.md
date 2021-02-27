@@ -40,3 +40,4 @@
 - [Lab 05: Vue Redo](Labs/Lab_05_Vue_Redo)
 - [Lab 06: Cat API Vue](Labs/Lab_06_Cat_API_Vue)
 - [Lab 07: Weather API](Labs/Lab_07_Weather_API)
+- [Lab 08: Clock](Labs/Lab_08_Clock)
