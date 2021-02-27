@@ -24,9 +24,8 @@ let app = new Vue({
                 this.guess = "Your guess was too high!"
             }
 
-            else {
-                this.guess = "Out of Attempts"
-            }                  
+            else
+                this.guess = "Out of Attempts"              
         },
     }
     

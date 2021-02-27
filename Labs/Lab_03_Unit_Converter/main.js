@@ -15,7 +15,7 @@ let user = prompt('What is the distance in feet? ')
 
 // let total = user * 0.3048
 
-// alert('{user} feet is {total} meters')
+alert('${user} feet is ${total} meters')
 
 
 

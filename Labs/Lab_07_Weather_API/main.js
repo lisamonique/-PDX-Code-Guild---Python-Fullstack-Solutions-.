@@ -8,13 +8,13 @@ let app = new Vue({
         temp: '',
         humidity: '',
     },
-    methods: {
-        getForecast: async function () {
-            let response = await axios({
-                url: ''
-            })
-        }
-    },
+    // methods: {
+    //     getForecast: async function () {
+    //         let response = await axios({
+    //             url: ''
+    //         })
+    //     }
+    // },
     
     created: function () {
         navigator.geolocation.getCurrentPosition(position => {
