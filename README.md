@@ -41,3 +41,8 @@
 - [Lab 06: Cat API Vue](Labs/Lab_06_Cat_API_Vue)
 - [Lab 07: Weather API](Labs/Lab_07_Weather_API)
 - [Lab 08: Clock](Labs/Lab_08_Clock)
+
+
+### Django Labs
+
+- [Lab 01: Polls](Django/Lab_01_Polls)
