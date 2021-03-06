@@ -45,4 +45,5 @@
 
 ### Django Labs
 
-- [Lab 01: Polls](Django/Lab_01_Polls)
+- [Lab 01: Polls](django/Lab_01_Polls)
+- [Lab 02: To Do List](django/Lab_02_Todo)
