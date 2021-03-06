@@ -1,0 +1,46 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'todo/style.css' %}">
+    <title>ToDo Items</title>
+</head>
+<body>
+    <form action="create_list/" method="post">
+        {% csrf_token %}
+        <h2>Enter Task</h2>
+        <textarea name="description" placeholder="List Item..."></textarea>
+        <label for="priority">Priority Level:</label>
+        <select name="priority">
+            {% for priority in priority_items %}
+            <option value="{{priority.name}}">{{priority.name}}</option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="Add">
+    </form>
+    <h3>To Do List</h3>
+    {% if todo_items %}
+    <div class="list">
+        {% for todo_item in todo_items %}
+        <p>{{todo_item.description}}</p>
+        <p>{{ todo_item.priority}}</p>
+        <a href="complete/{{todo_item.id}}/">Complete</a>
+        <a href="delete/{{todo_item.id}}/">Delete</a>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% if completed_items %}
+    <div>
+        <h3>Completed</h3>
+        {% for todo_item in completed_items %}
+        <p class="complete">{{todo_item.description}}</p>
+        <a href="delete/{{todo_item.id}}/">Trash</a>
+        {% endfor %}
+    </div>
+    {% endif %}
+</body>
+</html>
